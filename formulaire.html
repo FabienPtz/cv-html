@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/formulaire.css">
+	<title>Formulaire de Contact</title>
+</head>
+
+
+<body>	
+	<div class="boxflex">
+			<form action="mailto:fabienptz@outlook.fr" method="post" enctype="text/plain" class="formall">
+				<h3 class="formtittle">FORMULAIRE DE CONTACT</h3>
+					<input class="forminput" type="text" value="" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" placeholder="Prenom" name="Prenom" required>
+					<br>
+					<input class="forminput" type="text" value="" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" placeholder="Nom" name="Nom" required>
+					<br>
+					<input class="forminput" type="datetime" value="" pattern="[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" placeholder="Objet" name="Objet" required>
+					<br>
+					<textarea class="raisoncontact" type="text" value="" placeholder="Raison du contact" name="Raison du contact" required></textarea>
+					<br>
+					<input class="forminput" type="tel" value="" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" placeholder="Telephone" name="Telephone" required>
+					<br>
+					<button type="submit" class="formmail">Envoyer un e-Mail</button>
+					<br>
+			</form>
+	</div>
+</body>
+
+</html> 
