@@ -1,0 +1,94 @@
+body
+{
+    background: lightgray;
+}
+
+.formmail
+{
+	width: 160px;
+	height: 35px;
+	background: black;
+	color: white;
+	border-width: 5px;
+	border-radius: 10px;
+    border-color: #fa8231;
+	margin: 20px;
+
+}
+
+.formButton 
+{
+	width: 130px;
+	height: 35px;
+	background: black;
+	color: white;
+	border-width: 5px;
+	border-radius: 10px;
+    border-color: #fa8231;
+	margin: 20px;
+
+}
+.formall
+{
+    font-family: cursive;
+    font-size: large;
+    outline-width: thick;
+    outline-style: double;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border: dotted  lightsalmon 3.5px;
+    border-radius: 40px;
+    display: block;
+    height: 100%;
+}
+.forminput
+{
+    text-align: center;
+    margin: 23px;
+    border-style: groove;
+    border-radius: 6px;
+    font-size: x-large;
+    background-color: lightgray;
+}
+
+.raisoncontact
+{
+    text-align: center;
+    margin: 23px;
+    border-style: groove;
+    border-radius: 6px;
+    font-size: x-large;
+    background-color: lightgray;
+    min-height: 250px;
+    min-width: 300px;
+}
+
+.formtittle
+{
+	color: #fa8231;
+	outline: 6px;
+}
+
+.boxflex
+{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexone
+{
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) 
+{
+    .boxflex {flex-direction: column;}
+    .flexone {width: 100%;}
+    .formall {height: 100%;}
+}
